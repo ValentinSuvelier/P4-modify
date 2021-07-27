@@ -506,6 +506,8 @@ button {
 }
 
 .form-control {
+    display: flex;
+    flex-direction: column;
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
@@ -694,12 +696,15 @@ p {
     margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
+    padding: 16px 25px 16px 25px;
     font-size: 16px;
     font-weight: 700;
 }
 
-.social {
+.social 
+{
+    display: flex;
+    justify-content: space-between;
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -781,7 +786,8 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
+    font-size: 1.5rem;
 }
 
 .btn-atomic-tangerine:hover {
@@ -791,6 +797,7 @@ h4 {
 
 .ltc-white {
     color: #FFFFFF!important;
+    font-size: 2rem;
 }
 
 .ltc-white:hover {
@@ -857,7 +864,15 @@ h4 {
     margin: 2rem 0 0 0;
 }
 
-
+.titrep2
+{
+    text-align: center;
+    font-size: 3rem;
+}
+.txtp2
+{
+    text-align: center;
+}
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1067,6 +1082,10 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .img-responsive
+    {
+        margin: auto;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1074,5 +1093,9 @@ h4 {
         z-index: 1;
         color: black;
         text-align: center;
+    }
+    .img-responsive
+    {
+        margin: auto;
     }
 }

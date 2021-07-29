@@ -14,10 +14,16 @@ article
 a,
 button {
     transition: all .3s ease-in-out;
+    border: none;
+    background: none;
     outline: none!important;
     text-decoration: none;
 }
-
+.focusable:focus 
+{
+    border: 3px solid black;
+    border-radius: 4px;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -1065,11 +1071,15 @@ input
         -ms-transform: none;
     }
     .nav > li {
+        position: relative;
+        right: 3rem;
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
         text-align: left;
-        padding-left: 15px;
+        padding-left: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         width: 100%;
     }
     .nav > li:hover {
@@ -1152,7 +1162,7 @@ input
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 20px;
     }
     .close-lightbox {
         display: inline-block;
@@ -1178,6 +1188,19 @@ input
     {
         margin: auto;
     }
+
+    input
+    {
+        height: 2.5rem;
+        width: 100%;
+        border-radius: 0.5rem;
+    }
+    #message
+{
+    height: 5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
 }
 
 @media (max-width: 767px) {

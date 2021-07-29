@@ -24,6 +24,7 @@ button {
     border: 3px solid black;
     border-radius: 4px;
 }
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -707,7 +708,6 @@ p {
 }
 
 .cta-hero {
-    margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 16px 25px 16px 25px;
@@ -888,10 +888,12 @@ h4 {
 .vie
 {
     font-size: 2rem;
+    margin: 0 1rem;
 }
 .contactez
 {
     text-align: center;
+    margin: 1rem;
     color: white!important;
 }
 
@@ -963,14 +965,20 @@ input
     top: 0.2rem;
     left: 4.4rem;
 }
+.contactp1
+{
+    font-size: 1.5rem;
+}
 .accueilp2
+{
+    font-size: 1.5rem;
+}
+.btnaccueil
 {
     position: relative;
     right: 6rem;
     bottom: 1rem;
-    font-size: 1.5rem;
 }
-
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1176,6 +1184,12 @@ input
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .btnaccueil
+    {
+    position: relative;
+    right: 0;
+    bottom: 0;
     }
 }
 

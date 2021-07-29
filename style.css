@@ -369,10 +369,7 @@ a:hover {
 .nav-invert .navbar .nav {
     float: left;
 }
-#nav-toggle
-{
-    display: none;
-}
+
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
     float: right;

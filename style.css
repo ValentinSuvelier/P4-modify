@@ -1085,7 +1085,7 @@ input
         padding-left: 50px;
         padding-top: 5px;
         padding-bottom: 5px;
-        width: 100%;
+        width: 105%;
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);

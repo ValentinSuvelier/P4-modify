@@ -1188,6 +1188,12 @@ input
     right: 0;
     bottom: 0;
     }
+    .img-responsive
+    {
+        width: 280px;
+        height: 280px;
+        margin: auto;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1195,11 +1201,6 @@ input
         padding-left: 0;
         padding-right: 0;
     }
-    .img-responsive
-    {
-        margin: auto;
-    }
-
     input
     {
         height: 2.5rem;

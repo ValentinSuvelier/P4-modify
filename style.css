@@ -376,7 +376,22 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
+.entreprise
+{
+    margin-bottom: 4rem;
+    font-size: 3rem;
+}
+.linkadresse
+{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.row
+{
+    margin: auto;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -868,6 +883,7 @@ h4 {
 }
 .citation
 {
+    margin-top: 2rem;
     font-style: italic;
     font-weight: bold;
 }
@@ -881,6 +897,8 @@ h4 {
 .objectifs
 {
     text-align: center;
+    color: black!important;
+    font-size: 3rem;
 }
 .vie
 {
@@ -898,10 +916,16 @@ h4 {
 {
     text-align: center;
     font-size: 3rem;
+    color: black!important;
 }
 .txtp2
 {
     text-align: center;
+    color: black!important;
+}
+.fa, .fas
+{
+    color: black!important;
 }
 .fa-chevron-up
 {
@@ -916,6 +940,7 @@ h4 {
 .chouette
 {
     text-align: center;
+    color: black!important;
 }
 .reseaux
 {
@@ -964,11 +989,14 @@ input
 }
 .contactp1
 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 .accueilp2
 {
     font-size: 1.5rem;
+    position: relative;
+    bottom: 1rem;
+    right: 6rem;
 }
 .btnaccueil
 {
@@ -1000,13 +1028,13 @@ input
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1024,21 +1052,13 @@ input
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
     }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
 }
 
 @media (max-width: 767px) {

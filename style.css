@@ -19,6 +19,10 @@ button {
     outline: none!important;
     text-decoration: none;
 }
+.banniere
+{
+    height: 4rem;
+}
 .focusable:focus 
 {
     border: 3px solid black;
@@ -861,10 +865,7 @@ h4 {
 
 
 
-.navbar-brand img
-{
-    height: 60px;
-}
+
 .contact
 {
     font-size: 2.2rem;
@@ -986,6 +987,11 @@ input
     position: relative;
     top: 0.2rem;
     left: 4.4rem;
+}
+.logo
+{
+    width: 100px;
+    height: 100px;
 }
 .contactp1
 {
